@@ -19,5 +19,5 @@ const userSchema = new mongoose.Schema({
         required:[true,"please enter the Phone Number"]
     }
 });
-const UserData = mongoose.model("User", userSchema);
+const UserData = mongoose.model("UserData", userSchema);
 module.exports = UserData;
